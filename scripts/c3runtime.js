@@ -3286,13 +3286,11 @@ s)return;this._characterSet=s;this._mapChanged=true}GetCharacterSet(){return thi
 		() => -60,
 		() => -90,
 		() => "Suelto",
-		() => 45,
 		() => "Doblando",
 		() => "ManiobraExitosa",
 		() => "SUCCESS",
 		() => "Registro de Maniobra:  pasó por DER",
 		() => "EnShock",
-		() => -45,
 		() => "Registro de Maniobra:  pasó por IZQ",
 		() => 80,
 		() => 70,
@@ -3314,6 +3312,8 @@ s)return;this._characterSet=s;this._mapChanged=true}GetCharacterSet(){return thi
 		() => "200,100,200",
 		() => "CRASH",
 		() => "Girar el volante",
+		() => -45,
+		() => 45,
 		() => "DRIFT",
 		p => {
 			const f0 = p._GetNode(0).GetBoundMethod();
